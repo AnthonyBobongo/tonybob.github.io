@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Anthony Bobongo </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta property="og:url" content="http://www.tonybob.github.io" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Anthony Bobongo" />
+	<meta property="og:author" content="Anthony Bobongo" />
+	<meta property="og:description" content="Personal website" />
+	<meta property="og:image:width" content="1280" />
+	<meta property="og:image:height" content="640" />
+	<link rel="icon" href="assets/favicon.png" sizes="256x256"/>
+	<link rel="preload" as="image" href="bg.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/fos.min.js"></script>
+</head>
+<body>
+	<fos-desktop id="mainDesktop">
+		<fos-bar>
+			<fos-menu name="Start">
+				<div style="min-width: 100px">Menu</div>
+				<hr>
+				<fos-menu-item href="aboutme"><img src="img/artage-io-48161_1588129131.png">About</fos-menu-item>
+				<fos-menu-item href="games"><img src="img/artage-io-48167_1588399863.png">Games</fos-menu-item>
+				<fos-menu-item href="radio"><img src="img/artage-io-48153_1588474190.png">Radio</fos-menu-item>
+				<fos-menu-item href="work"><img src="img/artage-io-48145_1588129590.png">Work</fos-menu-item>
+			</fos-menu>
+			<div id="clock"></div>
+		</fos-bar>
+		<fos-icon href="aboutme" name="About">
+		  <img src="assets/artage-io-48145_1588129590.png"  alt="About Me" title="About Me">
+		</fos-icon>
+		<fos-icon href="games" name="Games">
+		  <img src="assets/artage-io-48167_1588399863.png" alt="Games" title="Games">
+		</fos-icon>
+		<fos-icon href="radio" name="Radio">
+		  <img src="assets/artage-io-48153_1588474190.png" alt="Radio" title="Radio">
+		</fos-icon>
+		<fos-icon href="work" name="Work">
+		  <img src="assets/artage-io-48145_1588129590.png" alt="Work" title="Work">
+		</fos-icon>
+		<fos-window name="aboutme" title="About Me">
+		    <img src="img/young-me.jpg"/>
+			<h3>Anthony Bobongo</h3>
+			Former 3D artist, current Software Engineer
+			<br>
+			<br>
+			Education:
+			<br>
+			Cinema, Tv and Digital Media - Universidade Salgado de Oliveira, 2005
+			<br>
+			Software Engineering - Universidade Federal do Pampa, 2019
+			<br>
+			<br>
+			<a href="na" target="tab"> LinkedIn </a>
+			<br>
+			<a href="na" target="tab">Instagram </a>
+			<br>
+			<br>
+			anthonybobongo AT gmail DOT com
+			<br>
+			<br>
+		</fos-window>
+		<fos-window name="games" title="Games">
+			<fos-desktop id="gamesIcons">
+				<fos-icon href="qubes" name="Qubes" fixed="true">
+				  <img src="assets/qubes.png" alt="Qubes" title="Qubes">
+				</fos-icon>
+				<fos-icon href="genius" name="Genius" fixed="true">
+				  <img src="assets/genius.png" alt="Genius" title="Genius">
+				</fos-icon>
+				<fos-icon href="invaderz" name="InvaderZ" fixed="true">
+				  <img src="assets/invaderz.png" alt="InvaderZ" title="InvaderZ">
+				</fos-icon>
+				<fos-icon href="scramble" name="Scramble" fixed="true">
+				  <img src="assets/scramble.png" alt="Scramble" title="Scramble">
+				</fos-icon>
+			</fos-desktop>
+		</fos-window>
+		<fos-window name="qubes" title="Qubes" class="zero">
+			<iframe frameborder="0" src="https://itch.io/embed-upload/3110672?color=333333" allowfullscreen="yes" width="99%" height="99%"></iframe>
+		</fos-window>
+		<fos-window name="genius" title="Genius" class="zero">
+			<iframe frameborder="0" src="https://itch.io/embed-upload/2136280?color=ffffff" allowfullscreen="yes" width="99%" height="99%"></iframe>
+		</fos-window>
+		<fos-window name="invaderz" title="InvaderZ" class="invaderz">
+			<iframe frameborder="0" src="https://itch.io/embed-upload/2296430?color=ffffff" allowfullscreen="yes" width="99%" height="99%"></iframe>
+		</fos-window>
+		<fos-window name="scramble" title="Scramble" class="zero">
+			<iframe frameborder="0" src="https://itch.io/embed-upload/2962414?color=ffffff" allowfullscreen="yes" width="99%" height="99%"></iframe>
+		</fos-window>
+		<fos-window name="radio" title="Radio" class="zero">
+			<iframe frameborder="0" src="radio/index.html" allowfullscreen="yes" width="100%" height="100%"></iframe>
+		</fos-window>
+		<fos-window name="art3d" title="Work">
+			<fos-desktop id="art3dicons"></fos-desktop>
+		</fos-window>
+	</fos-desktop>
+	<script src="js/main.js"></script>
+	<div id="fgbg"></div>
+</body>
+</html>
